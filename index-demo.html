@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fhir-demo</title>
+
+    <!-- jquery -->
+    <script type="text/javascript" src="jquery.js"></script>
+    <!--fhir clients -->
+    <script type="text/javascript" src="fhir-client.js"></script>
+    <script type="text/javascript" src="fhir-client.js"></script>
+    <!-- gets and prints the patient -->
+    <script type="text/javascript" src="get-data.js"></script>
+</head>
+<body>
+<p>The patient is : <span id="patient_name" style="color:#3691ff"></span> </p>
+<br>
+<p>The meds:</p>
+<br>
+<ul id="med_list"></ul>
+
+<script>get_patient(1137192);</script>
+</body>
+</html>
